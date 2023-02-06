@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Contacto</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>Nuevo Contacto</h3>
+          <h4>Porfavor, llena la siguiente información para añadir tu contacto a la lista.</h4>
+          <fieldset>
+            <input placeholder="Nombres" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="pellidos" type="text" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Número Telefónico" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Correo Electrónico" type="email" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Dirección" tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Agregar</button>
+          </fieldset>
+        </form>
+       
+        
+      </div>
+
+
+    <center class="back"> Si cambiaste de opinión da clic aquí: <a  class="button" href='./contactos.html' target="blank">Contactos</a> </center>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
