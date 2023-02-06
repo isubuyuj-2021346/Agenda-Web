@@ -2,53 +2,209 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <!-- basic -->
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalles del Contacto | Isai Subuyuj |</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Detalles del Contacto | isai Subuyuj |</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- site icon -->
+    <link rel="icon" href="./assets/img/images/fevicon.png" type="image/png" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/cssContac/bootstrap.min.css" />
+    <!-- site css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="./css/cssContac/responsive.css" />
+    <!-- color css -->
+    <link rel="stylesheet" href="./css/cssContac/colors.css" />
+    <!-- select bootstrap -->
+    <link rel="stylesheet" href="./css/cssContac/bootstrap-select.css" />
+    <!-- scrollbar css -->
+    <link rel="stylesheet" href="./css/cssContac/perfect-scrollbar.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/cssContac/custom.css" />
+    <!-- calendar file css -->
+    <link rel="stylesheet" href="./js/jsContac/semantic.min.css" />
 </head>
 
-<body>
-    <div class="container">
-        <form id="contact" action="" method="post">
-            <h3>Nuevo Contacto</h3>
-            <h4>Porfavor, llena la siguiente información para añadir tu contacto a la lista.</h4>
-            <fieldset>
-                <input placeholder="Nombres" type="text" tabindex="1" required autofocus>
-            </fieldset>
-            <fieldset>
-                <input placeholder="pellidos" type="text" tabindex="2" required>
-            </fieldset>
-            <fieldset>
-                <input placeholder="Número Telefónico" type="tel" tabindex="3" required>
-            </fieldset>
-            <fieldset>
-                <input placeholder="Correo Electrónico" type="email" tabindex="4" required>
-            </fieldset>
-            <fieldset>
-                <textarea placeholder="Dirección" tabindex="5" required></textarea>
-            </fieldset>
-            <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Agregar</button>
-            </fieldset>
-        </form>
-
-
+<body class="inner_page profile_page">
+    <div class="full_container">
+        <div class="inner_container">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+                <div class="sidebar_blog_1">
+                    <div class="sidebar-header">
+                    </div>
+                    <div class="sidebar_user_info">
+                        <div class="icon_setting"></div>
+                        <div class="user_profle_side">
+                            <div class="user_img"><img class="img-responsive" src="./assets/img/fotoI.jpg" alt="#" />
+                            </div>
+                            <div class="user_info">
+                                <h6>Isai Subuyuj</h6>
+                                <p><span class="online_animation"></span> Online</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar_blog_2">
+                    <h4>General</h4>
+                    <ul class="list-unstyled components">
+                       <li><a ><i class="fa fa-clock-o orange_color"></i> <span>------</span></a></li>
+                       <li><a href="./newCantact.html"><i class="fa fa-clock-o orange_color"></i> <span>Perfil</span></a></li>
+                       <li><a ><i class="fa fa-clock-o orange_color"></i> <span>------</span></a></li>
+                       <li><a href="./toDoList.html"><i class="fa fa-clock-o orange_color"></i> <span>Lista de Tareas</span></a></li>
+                       <li><a ><i class="fa fa-clock-o orange_color"></i> <span>------</span></a></li>
+                       <li><a href="./newCantact.html"><i class="fa fa-clock-o orange_color"></i> <span>Agregar Contacto</span></a></li>
+                       <li><a ><i class="fa fa-clock-o orange_color"></i> <span>------</span></a></li>
+                       <li><a href="./favoritos.html"><i class="fa fa-clock-o orange_color"></i> <span>Favoritos</span></a></li>
+                       <li><a ><i class="fa fa-clock-o orange_color"></i> <span>------</span></a></li>
+                       <li><a href="./contactos.html"><i class="fa fa-clock-o orange_color"></i> <span>Regresar</span></a></li>
+                       <li><a ><i class="fa fa-clock-o orange_color"></i> <span>------</span></a></li>
+                    </ul>
+                 </div>
+            </nav>
+            <!-- end sidebar -->
+            <!-- right content -->
+            <div id="content">
+                <!-- topbar -->
+                <div class="topbar">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                       <div class="full">
+                          <button type="button" id="sidebarCollapse" class="sidebar_toggle"><img class="icono" src="./assets/img/iconop.png" alt="..."></i></button>
+                          <div class="logo_section">
+                             <a href="index.html"><img class="img-responsive" src="./assets/img/DetallesContac.jpg" alt="#" /></a>
+                          </div>
+                          <div class="right_topbar">
+                             <div class="icon_info">
+                                
+                                <ul class="user_profile_dd">
+                                   <li>
+                                      <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="./assets/img/fotoI.jpg" alt="#" /><span class="name_user">Isai Subuyuj</span></a>
+                                      <div class="dropdown-menu">
+                                         <a class="dropdown-item" href="./perfil.html">Mi perfil  </a>
+                                         <a class="dropdown-item" href="./index.html"><span>Salir</span> <i class="fa fa-sign-out"></i></a>
+                                      </div>
+                                   </li>
+                                </ul>
+                             </div>
+                          </div>
+                       </div>
+                    </nav>
+                 </div>
+                 <!-- end topbar -->
+                 <!-- dashboard inner -->
+                 <div class="midde_cont">
+                    <div class="container-fluid">
+                       <div class="row column_title">
+                          <div class="col-md-12">
+                             <div class="page_title">
+                                <h2>Detalles del Contacto: Luis Javier Rodríguez Baj</h2>
+                             </div>
+                          </div>
+                       </div>
+                       
+                        </div>
+                    </nav>
+                </div>
+                <!-- end topbar -->
+                <!-- dashboard inner -->
+                <div class="midde_cont">
+                    <div class="container-fluid">
+                        
+                        <!-- row -->
+                        <div class="row column1">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <div class="white_shd full margin_bottom_30">
+                                    <div class="full graph_head">
+                                        <div class="heading1 margin_0">
+                                            <h2>Contacto</h2>
+                                        </div>
+                                    </div>
+                                    <div class="full price_table padding_infor_info">
+                                        <div class="row">
+                                            <!-- user profile section -->
+                                            <!-- profile image -->
+                                            <div class="col-lg-12">
+                                                <div class="full dis_flex center_text">
+                                                    <div class="profile_img"><img width="180" class="rounded-circle"
+                                                            src="./assets/img/luis Baj.jpg" alt="#" /></div>
+                                                    <div class="profile_contant">
+                                                        <div class="contact_inner">
+                                                            <h3>Nombres:      Luis Javier </h3>
+                                                            <h3>A pellidos:   Rodríguez Baj</h3>
+                                                            <p><strong>Profesion: </strong>Programador</p>
+                                                            <ul class="list-unstyled">
+                                                                <li><i class="fa fa-envelope-o"><p><strong>Correo Eléctronico:</strong>TeoRG@gmail.com</p>
+                                                                <li><i class="fa fa-envelope-o"><p><strong>Correo Eléctronico:</strong>TeoRG@gmail.com</p>
+                                                                    <li><i class="fa fa-envelope-o"><p><strong>Dirección:</strong>12-12 Colonia Catalinas zona 18</p>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="user_progress_bar">
+                                                            <div class="progress_bar">
+                                                                <!-- Skill Bars -->
+                                                                <span class="skill" style="width:85%;">Cuanto has usado este contacto:
+                                                                    <span class="info_valume">85%</span></span>
+                                                                <div class="progress skill-bar ">
+                                                                    <div class="progress-bar progress-bar-animated progress-bar-striped"
+                                                                        role="progressbar" aria-valuenow="85"
+                                                                        aria-valuemin="0" aria-valuemax="100"
+                                                                        style="width: 85%;">
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!-- end user profile section -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <!-- end row -->
+                        </div>
+                        
+                    </div>
+                    <!-- end dashboard inner -->
+                </div>
+            </div>
+        </div>
     </div>
-
-
-    <center class="back"> Si cambiaste de opinión da clic aquí: <a class="button" href='./contactos.html'
-            target="blank">Contactos</a> </center>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <!-- jQuery -->
+    <script src="./js/jsContac/jquery.min.js"></script>
+    <script src="./js/jsContac/popper.min.js"></script>
+    <script src="./js/jsContac/bootstrap.min.js"></script>
+    <!-- wow animation -->
+    <script src="./js/jsContac/animate.js"></script>
+    <!-- select country -->
+    <script src="./js/jsContac/bootstrap-select.js"></script>
+    <!-- owl carousel -->
+    <script src="./js/jsContac/owl.carousel.js"></script>
+    <!-- chart js -->
+    <script src="./js/jsContac/Chart.min.js"></script>
+    <script src="./js/jsContac/Chart.bundle.min.js"></script>
+    <script src="./js/jsContac/utils.js"></script>
+    <script src="./js/jsContac/analyser.js"></script>
+    <!-- nice scrollbar -->
+    <script src="./js/jsContac/perfect-scrollbar.min.js"></script>
+    <script>
+        var ps = new PerfectScrollbar('#sidebar');
+    </script>
+    <!-- custom js -->
+    <script src="./js/jsContac/custom.js"></script>
+    <!-- calendar file css -->
+    <script src="./js/jsContac/semantic.min.js"></script>
 </body>
 
 </html>
